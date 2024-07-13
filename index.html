@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <div class="container">
+      <div class="display">
+        <p class="js-display-calculation"></p>
+      </div>
+      <div class="buttons">
+        <p>
+          <button onClick="
+            updateCalculation('1');
+          ">
+            1
+          </button>
+          <button onClick="
+            updateCalculation('2');
+          ">
+            2
+          </button>
+          <button onClick="
+            updateCalculation('3');
+          ">
+            3
+          </button>
+          <button onClick="
+            updateCalculation(' + ');
+          " class="operation">
+            +
+          </button>
+        </p>
+        <p>
+          <button onClick="
+            updateCalculation('5');
+          ">
+            4
+          </button>
+          <button onClick="
+            updateCalculation('5');
+          ">
+            5
+          </button>
+          <button onClick="
+            updateCalculation('6');
+          ">
+            6
+          </button>
+          <button onClick="
+            updateCalculation(' - ');
+          " class="operation">
+            -
+          </button>
+        </p>
+        <p>
+          <button onClick="
+            updateCalculation('7');
+          ">
+            7
+          </button>
+          <button onClick="
+            updateCalculation('8');
+          ">
+            8
+          </button>
+          <button onClick="
+            updateCalculation('9');
+          ">
+            9
+          </button>
+          <button onClick="
+            updateCalculation(' * ');
+          " class="operation">
+            *
+          </button>
+        </p>
+        <p>
+          <button onClick="
+            updateCalculation('0');
+          ">
+            0
+          </button>
+          <button onClick="
+            updateCalculation('.');
+          ">
+            .
+          </button>
+          <button onClick="
+          updateCalculation('=');
+          ">
+            =
+          </button>
+          <button onClick="
+            updateCalculation(' / ');
+          " class="operation">
+            /
+          </button>
+        </p>
+        <p>
+          <button onClick="
+            updateCalculation('Clear');
+          " class="clear-button">
+            Clear
+          </button>
+        </p>
+      </div>
+    </div>
+    <script src="calculator.js"></script>
+  </body>
+</html>
