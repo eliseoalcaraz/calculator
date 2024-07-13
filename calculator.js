@@ -8,7 +8,7 @@ function updateCalculation(numOrOp) {
     calculation = '';
     console.log('Cleared.');
   } else if (numOrOp === '=') {
-    calculation = 'miss na kita'//eval(calculation);
+    calculation = 'i miss you'//eval(calculation);
     console.log(calculation);
   }
 
